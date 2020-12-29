@@ -2,7 +2,7 @@ const overlay = document.getElementById("product-shape");
 
 const overlay2 = document.getElementById("product-shape2");
 
-var el = document.getElementsByClassName("color");
+var el = document.getElementsByClassName("c1");
 	for (var i = 0; i < el.length; i++) {
 		el[i].onclick = changeColor;
 	}
@@ -12,7 +12,7 @@ var el = document.getElementsByClassName("color");
 		overlay.style.fill = hex;
 	}
 
-var el2 = document.getElementsByClassName("color2");
+var el2 = document.getElementsByClassName("c2");
 	for (var i = 0; i < el2.length; i++) {
 		el2[i].onclick = changeColor2;
 	}
